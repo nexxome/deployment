@@ -10,9 +10,6 @@ class Symfony {
         task('schema:update', function () {
             run('{{env_vars}} {{bin/php}} {{bin/console}} doctrine:schema:update --force {{console_options}}');
         });
-        task('cache:clear', function () {
-            run("rm -rf {{release_path}}/var/cache/prod");
-        });
         task('cache:twig:clear', function () {
             run("rm -rf {{release_path}}/var/cache/prod/twig");
         });
