@@ -1,0 +1,8 @@
+{
+    "name" : "nexxo/deployment",
+    "autoload": {
+        "psr-4": {
+          "nexxo\\Deployer\\": "deployer/"
+        }
+    }
+}
