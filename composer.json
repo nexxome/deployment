@@ -1,7 +1,8 @@
 {
     "name" : "nexxo/deployment",
     "require": {
-        "deployer/deployer": "^6.0"
+        "deployer/deployer": "^6.0",
+        "deployer/recipes": "^6.0"
     },
     "autoload": {
         "psr-4": {
